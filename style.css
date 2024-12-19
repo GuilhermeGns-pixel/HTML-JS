@@ -1,0 +1,16 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    margin: 16px auto;
+    width: 100%;
+    max-width: 640px;
+}
+.btn-enviar{
+    margin-bottom: 8px;
+    width: 50%;
+    padding: 8px;
+    resize: none;
+    display: block;
+}
