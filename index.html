@@ -9,18 +9,24 @@
 <body>
     <div class="container">
         <h1>Ola bem vindo</h1>
+        <p>Nesse site você deve colocar um valor maior no campo b </p>
         <div>
-            <form action="">
-                <p>campo A</p>
-                <input type="number">
-                <p>campo b</p>
-                <input type="number">
+            <form id="form-Campos">
+                
+                <input id="campoA" required type="number" placeholder="Campo A">
+                
+                <input id="campoB" required type="number" placeholder="Campo B">
+                <p class="sucess-mensagem">
+                </p>
+                <p class="error-mensagem">
+                </p>
+
                 <br>
-                <button class="btn-enviar" type="submit"> Enviar</button>
+                <button id="btn-enviar" type="submit"> Enviar</button>
                 
             </form>
         </div>
     </div>
-    <script src=""></script>
+    <script src="main.js"></script>
 </body>
 </html>
