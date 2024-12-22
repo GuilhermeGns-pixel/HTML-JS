@@ -32,7 +32,7 @@ input{
     width: 400px;
     align-items: center;
     display: none;
-    color: white;
+    color: gray;
     align-content: center;
     text-align: -webkit-center;
 }
