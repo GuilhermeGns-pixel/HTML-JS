@@ -1,6 +1,8 @@
 const form = document.getElementById('form-Campos');
 let campoA = document.getElementById('campoA');
 let campoB = document.getElementById('campoB');
+const mensagemSucess = `O Campo B : <b>${campoB.value}</b> e maior do que o Campo A: <b>${campoA.value}</b> `
+const mensagemError = `O Campo A : <b>${campoA.value}</b> e maior do que o Campo B : <b>${campoB.value}</b> `
 
 function campos (campoA, campoB){
 
